@@ -1,0 +1,103 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Root variables */
+:root {
+  --background: hsl(240, 20%, 4%);
+  --foreground: hsl(210, 20%, 92%);
+
+  --card: hsl(240, 15%, 8%);
+  --card-foreground: hsl(210, 20%, 92%);
+
+  --popover: hsl(240, 15%, 8%);
+  --popover-foreground: hsl(210, 20%, 92%);
+
+  --primary: hsl(187, 100%, 45%);
+  --primary-foreground: hsl(240, 20%, 4%);
+
+  --secondary: hsl(240, 12%, 14%);
+  --secondary-foreground: hsl(210, 20%, 85%);
+
+  --muted: hsl(240, 10%, 12%);
+  --muted-foreground: hsl(215, 15%, 55%);
+
+  --accent: hsl(187, 100%, 45%);
+  --accent-foreground: hsl(240, 20%, 4%);
+
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(210, 40%, 98%);
+
+  --radius: 0.75rem;
+
+  --sidebar-background: hsl(240, 15%, 6%);
+  --sidebar-foreground: hsl(210, 20%, 92%);
+  --sidebar-primary: hsl(187, 100%, 45%);
+  --sidebar-primary-foreground: hsl(240, 20%, 4%);
+  --sidebar-accent: hsl(240, 12%, 14%);
+  --sidebar-accent-foreground: hsl(210, 20%, 92%);
+
+  --glow: hsl(187, 100%, 45%);
+  --surface: hsl(240, 12%, 10%);
+}
+
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--foreground);
+}
+
+/* Scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Card example */
+.card {
+  background-color: var(--card);
+  color: var(--card-foreground);
+  border-radius: var(--radius);
+  padding: 1rem;
+}
+
+/* Button examples */
+.button-primary {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+  border-radius: var(--radius);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.button-secondary {
+  background-color: var(--secondary);
+  color: var(--secondary-foreground);
+  border-radius: var(--radius);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.button-destructive {
+  background-color: var(--destructive);
+  color: var(--destructive-foreground);
+  border-radius: var(--radius);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: none;
+}

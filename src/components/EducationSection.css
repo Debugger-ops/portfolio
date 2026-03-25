@@ -1,0 +1,59 @@
+.education {
+  padding: 6rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.education-card {
+  background: hsl(240 12% 10%);
+  border: 1px solid hsl(240 10% 16%);
+  border-radius: 0.75rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.education-info h3 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: hsl(210 20% 92%);
+  margin-bottom: 0.5rem;
+}
+
+.education-info p {
+  color: hsl(215 15% 55%);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.education-info .edu-school {
+  color: hsl(187 100% 45%);
+  font-weight: 500;
+}
+
+.education-stats {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.education-stat {
+  text-align: center;
+}
+
+.education-stat-value {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: hsl(187 100% 45%);
+}
+
+.education-stat-label {
+  font-size: 0.8rem;
+  color: hsl(215 15% 55%);
+  margin-top: 0.25rem;
+}
