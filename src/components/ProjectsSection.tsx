@@ -5,7 +5,7 @@ import projectGoldenbites from '../assets/project-goldenbites.png';
 import projectJobbuddy from '../assets/project-jobbuddy.png';
 import projectAriachatbot from '../assets/project-Ariachatbot.png';
 import projectNotegenie from '../assets/project-Notegenie.png';
-import projectDisasterManagement from '../assets/projectDisasterManagement.png';
+import projectDisasterManagement from '../assets/project-DisasterManagement.png';
 import './ProjectsSection.css';
 
 const projects = [
